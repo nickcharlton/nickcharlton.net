@@ -135,7 +135,31 @@ main, article {
   margin: 1em;
 }
 
-body footer {
+article header {
+  margin: 0;
+}
+
+article footer {
+  margin: 0;
+}
+
+main header {
+  margin: 0;
+}
+
+article header h2 {
+  margin: 0;
+}
+
+main header h2 {
+  margin: 0;
+}
+
+main footer {
+  margin: 0;
+}
+
+footer {
   grid-column: span 10 / span 10;
   margin: 1em;
   padding-bottom: 1em;
@@ -160,7 +184,7 @@ footer p {
     margin: 1em 0 0 0;
   }
 
-  body footer {
+  footer {
     grid-column: span 6 / span 6;
     grid-column-start: 3;
     margin: 1em 0 0 0;
