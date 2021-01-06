@@ -138,6 +138,7 @@ main, article {
 body footer {
   grid-column: span 10 / span 10;
   margin: 1em;
+  padding-bottom: 1em;
 }
 
 footer p {
